@@ -304,6 +304,16 @@ function App() {
                       </span>
                     </div>
                     <h3 className="workflow-card-title">{cleanTitle}</h3>
+                    <div className="workflow-expand-indicator" aria-hidden="true">
+                      <svg
+                        className="workflow-expand-icon"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M5 8L10 13L15 8" />
+                      </svg>
+                    </div>
 
                     <div className="workflow-hover-details">
                       <p className="objective">{session.objective}</p>
